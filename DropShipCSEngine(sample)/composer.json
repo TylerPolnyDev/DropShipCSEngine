@@ -1,0 +1,22 @@
+{
+    "name": "DropShipCSEngine",
+    "description": "provide semi-autonomous customer service for orders that have been drop shipped from a supplier directly to an end customer",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "tyler.polny.developer@gmail.com",
+            "name": "Tyler Polny"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "REDACTED\\OrderManagement\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

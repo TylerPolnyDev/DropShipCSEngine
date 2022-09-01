@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+
+<group id="REDACTED_order_management">
+
+    <job name="order_maxtime" instance="Veratics\OrderManagement\Cron\CSMagentoEventAgent" method="checkOrderMaxtime">
+
+        <schedule>*/5 * * * *</schedule>
+
+    </job>
+    <job name="cs_zd_event_agent" instance="Veratics\OrderManagement\Cron\CSZendeskEventAgent" method="runZDEventAgent">
+
+        <schedule>*/5 * * * *</schedule>
+
+    </job>
+
+
+</group>
+
+</config>

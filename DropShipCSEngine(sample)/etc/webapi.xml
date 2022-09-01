@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../app/code/Magento/Webapi/etc/webapi.xsd">
+    <route method="POST" url="/V1/REDACTED/addComment/">
+        <service class="REDACTED\OrderManagement\Api\SubmitCommentInterface" method="submitComment"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+    </route>
+    <route method="POST" url="/V1/REDACTED/setState/">
+        <service class="REDACTED\OrderManagement\Api\SetStateInterface" method="setState"/>
+        <resources>
+            <resource ref="self"/>
+        </resources>
+    </route>
+</routes>
