@@ -1,5 +1,5 @@
 <?php 
-namespace Veratics\OrderManagement\Api;
+namespace REDACTED\OrderManagement\Api;
  
  
 interface SubmitCommentInterface {
