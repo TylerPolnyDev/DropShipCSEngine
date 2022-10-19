@@ -2,7 +2,7 @@
     "name": "DropShipCSEngine",
     "description": "provide semi-autonomous customer service for orders that have been drop shipped from a supplier directly to an end customer",
     "type": "magento2-module",
-    "license": "proprietary",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "email": "tyler.polny.developer@gmail.com",
