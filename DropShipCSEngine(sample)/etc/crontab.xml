@@ -4,12 +4,12 @@
 
 <group id="REDACTED_order_management">
 
-    <job name="order_maxtime" instance="Veratics\OrderManagement\Cron\CSMagentoEventAgent" method="checkOrderMaxtime">
+    <job name="order_maxtime" instance="REDACTED\OrderManagement\Cron\CSMagentoEventAgent" method="checkOrderMaxtime">
 
         <schedule>*/5 * * * *</schedule>
 
     </job>
-    <job name="cs_zd_event_agent" instance="Veratics\OrderManagement\Cron\CSZendeskEventAgent" method="runZDEventAgent">
+    <job name="cs_zd_event_agent" instance="REDACTED\OrderManagement\Cron\CSZendeskEventAgent" method="runZDEventAgent">
 
         <schedule>*/5 * * * *</schedule>
 
