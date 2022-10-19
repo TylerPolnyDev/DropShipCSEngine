@@ -1,5 +1,5 @@
 <?php
-namespace Veratics\OrderManagement\Model;
+namespace REDACTED\OrderManagement\Model;
 
 
 class SetState {
