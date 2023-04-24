@@ -1843,7 +1843,6 @@ class ZendeskUtils{
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'GET',
             CURLOPT_HTTPHEADER => array(
-                'Authorization: Basic dHlsZXIucG9sbnlAdmVyYXRpY3MuY29tOkZlcnJldF4yMDAx',
                 'Cookie: __cfduid=d61083c589b2fe4b8e4f7bd5342cead721619724884; __cfruid=16fd5787c45ddd562e873a230fecfb96e844e3fd-1622048108'
             ),
         ));
